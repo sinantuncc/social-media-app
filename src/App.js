@@ -5,7 +5,7 @@ import StoryFeed from './components/StoryFeed';
 
 function App() {
   return (
-    <main className='grid gap-3 grid-cols-4'>
+    <main className='grid gap-3 grid-cols-4 h-screen'>
       <Menu />
       <StoryFeed />
       <Sidebar />
