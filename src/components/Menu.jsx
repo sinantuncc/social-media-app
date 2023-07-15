@@ -30,7 +30,7 @@ const Menu = () => {
       icon: FiSettings,
     },
     {
-      name: "Logout",
+      name: "Log out",
       icon: BiLogOut,
     },
   ];
@@ -43,7 +43,7 @@ const Menu = () => {
       </div>
       <ul className=" p-6 divide-y divide-slate-200">
         {menu.map((menuItem) => (
-          <li className="flex gap-3 p-3 text-2xl cursor-pointer">
+          <li className="flex gap-3 p-3 text-2xl cursor-pointer hover:bg-gray-700 hover:text-white">
             {<menuItem.icon />}
             <span> {menuItem.name} </span>
           </li>
